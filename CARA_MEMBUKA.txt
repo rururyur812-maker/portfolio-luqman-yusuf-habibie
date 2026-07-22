@@ -1,0 +1,18 @@
+CARA MEMBUKA PORTFOLIO LUQMAN V2.2
+
+1. Ekstrak file ZIP.
+2. Buka folder portfolio-luqman-v2-blue.
+3. Klik dua kali file index.html.
+4. Pilih Google Chrome atau Microsoft Edge bila diminta.
+
+Tidak perlu membuka CMD.
+Tidak perlu npm install.
+Tidak perlu npm run dev.
+Tidak perlu Node.js atau server.
+
+LOGIN ADMIN DEMO
+Email    : admin@portfolio.local
+Password : admin123
+
+Catatan:
+Data yang diubah melalui admin disimpan di localStorage browser yang sama.

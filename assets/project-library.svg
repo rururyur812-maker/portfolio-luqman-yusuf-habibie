@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f6f4ef"/><stop offset="1" stop-color="#c9c7c1"/></linearGradient></defs><rect width="1200" height="760" rx="36" fill="url(#g)"/>
+<text x="75" y="86" font-family="Arial" font-size="23" letter-spacing="5" fill="#181818">PROJECT PORTFOLIO</text><path d="M75 110h1050" stroke="#222222"/>
+<rect x="120" y="190" width="960" height="470" rx="32" fill="#fdfcf9"/><rect x="120" y="190" width="220" height="470" rx="32" fill="#20202a"/><rect x="160" y="250" width="140" height="18" rx="9" fill="#347eee"/><rect x="160" y="300" width="110" height="12" rx="6" fill="#736d78"/><rect x="160" y="334" width="130" height="12" rx="6" fill="#736d78"/><rect x="390" y="245" width="250" height="34" rx="12" fill="#23242b"/><rect x="390" y="315" width="190" height="130" rx="18" fill="#4b93ff"/><rect x="610" y="315" width="190" height="130" rx="18" fill="#21222a"/><rect x="830" y="315" width="190" height="130" rx="18" fill="#ece8e1"/><rect x="390" y="490" width="630" height="90" rx="20" fill="#e9e6df"/>
+</svg>
