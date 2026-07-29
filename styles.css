@@ -1603,3 +1603,128 @@ body,
     line-height: 1.12;
   }
 }
+
+
+/* ========================================
+   TOOLS & WORKFLOW — WEBP LOGOS
+======================================== */
+
+.tech-card-logo {
+  min-height: 138px;
+  display: grid;
+  grid-template-columns: 62px minmax(0, 1fr);
+  align-items: center;
+  gap: 20px;
+  padding: 22px;
+}
+
+.tech-logo-wrap {
+  width: 60px;
+  height: 60px;
+  display: grid;
+  place-items: center;
+  padding: 10px;
+
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 17px;
+
+  background: #ffffff;
+
+  box-shadow:
+    0 12px 30px rgba(0, 0, 0, 0.18),
+    inset 0 0 0 1px rgba(15, 23, 42, 0.03);
+
+  overflow: hidden;
+
+  transition:
+    transform 0.3s ease,
+    border-color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.tech-logo {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: contain;
+}
+
+.tech-logo-fallback {
+  color: #1d4ed8;
+  font-size: 0.8rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+}
+
+.tech-card-logo:hover .tech-logo-wrap {
+  transform: translateY(-3px) scale(1.03);
+
+  border-color: rgba(96, 165, 250, 0.45);
+
+  box-shadow:
+    0 16px 34px rgba(0, 0, 0, 0.23),
+    0 0 25px rgba(59, 130, 246, 0.14);
+}
+
+.tech-card-logo .tech-info {
+  min-width: 0;
+}
+
+.tech-card-logo .tech-info h3 {
+  margin: 0 0 6px;
+  color: #f8fafc;
+  font-size: 1rem;
+  line-height: 1.35;
+}
+
+.tech-category {
+  display: block;
+  color: #a8b3c3;
+  font-size: 0.79rem;
+  line-height: 1.55;
+}
+
+.tech-usage {
+  width: fit-content;
+  margin-top: 11px;
+  display: inline-flex;
+  align-items: center;
+
+  padding: 5px 10px;
+
+  border: 1px solid rgba(96, 165, 250, 0.24);
+  border-radius: 999px;
+
+  background: rgba(59, 130, 246, 0.09);
+
+  color: #93c5fd;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
+.tech-card-logo .progress-track,
+.tech-card-logo > strong {
+  display: none;
+}
+
+@media (max-width: 560px) {
+  .tech-card-logo {
+    min-height: 120px;
+    grid-template-columns: 52px minmax(0, 1fr);
+    gap: 16px;
+    padding: 18px;
+  }
+
+  .tech-logo-wrap {
+    width: 50px;
+    height: 50px;
+    padding: 8px;
+    border-radius: 14px;
+  }
+
+  .tech-logo {
+    width: 100%;
+    height: 100%;
+  }
+}
