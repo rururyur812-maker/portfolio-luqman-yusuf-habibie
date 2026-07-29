@@ -1609,37 +1609,35 @@ body,
    TOOLS & WORKFLOW — WEBP LOGOS
 ======================================== */
 
+/* ========================================
+   TOOLS & WORKFLOW — COMPACT STYLE
+======================================== */
+
 .tech-card-logo {
-  min-height: 138px;
+  min-height: 94px;
   display: grid;
-  grid-template-columns: 62px minmax(0, 1fr);
+  grid-template-columns: 42px minmax(0, 1fr);
   align-items: center;
-  gap: 20px;
-  padding: 22px;
+  gap: 14px;
+  padding: 14px 16px;
 }
 
 .tech-logo-wrap {
-  width: 60px;
-  height: 60px;
+  width: 42px;
+  height: 42px;
   display: grid;
   place-items: center;
-  padding: 10px;
+  padding: 7px;
 
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 17px;
-
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 11px;
   background: #ffffff;
-
-  box-shadow:
-    0 12px 30px rgba(0, 0, 0, 0.18),
-    inset 0 0 0 1px rgba(15, 23, 42, 0.03);
 
   overflow: hidden;
 
   transition:
-    transform 0.3s ease,
-    border-color 0.3s ease,
-    box-shadow 0.3s ease;
+    transform 0.25s ease,
+    border-color 0.25s ease;
 }
 
 .tech-logo {
@@ -1650,20 +1648,14 @@ body,
 }
 
 .tech-logo-fallback {
-  color: #1d4ed8;
-  font-size: 0.8rem;
+  color: #2563eb;
+  font-size: 0.68rem;
   font-weight: 800;
-  letter-spacing: 0.04em;
 }
 
 .tech-card-logo:hover .tech-logo-wrap {
-  transform: translateY(-3px) scale(1.03);
-
-  border-color: rgba(96, 165, 250, 0.45);
-
-  box-shadow:
-    0 16px 34px rgba(0, 0, 0, 0.23),
-    0 0 25px rgba(59, 130, 246, 0.14);
+  transform: translateY(-2px);
+  border-color: rgba(96, 165, 250, 0.35);
 }
 
 .tech-card-logo .tech-info {
@@ -1671,36 +1663,36 @@ body,
 }
 
 .tech-card-logo .tech-info h3 {
-  margin: 0 0 6px;
+  margin: 0 0 3px;
   color: #f8fafc;
-  font-size: 1rem;
-  line-height: 1.35;
+  font-size: 0.88rem;
+  line-height: 1.3;
 }
 
 .tech-category {
   display: block;
-  color: #a8b3c3;
-  font-size: 0.79rem;
-  line-height: 1.55;
+  color: #94a3b8;
+  font-size: 0.7rem;
+  line-height: 1.4;
 }
 
 .tech-usage {
   width: fit-content;
-  margin-top: 11px;
+  margin-top: 7px;
   display: inline-flex;
   align-items: center;
 
-  padding: 5px 10px;
+  padding: 3px 7px;
 
-  border: 1px solid rgba(96, 165, 250, 0.24);
+  border: 1px solid rgba(96, 165, 250, 0.18);
   border-radius: 999px;
 
-  background: rgba(59, 130, 246, 0.09);
+  background: rgba(59, 130, 246, 0.07);
 
   color: #93c5fd;
-  font-size: 0.68rem;
+  font-size: 0.58rem;
   font-weight: 700;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.02em;
 }
 
 .tech-card-logo .progress-track,
@@ -1709,6 +1701,34 @@ body,
 }
 
 @media (max-width: 560px) {
+  .tech-card-logo {
+    min-height: 84px;
+    grid-template-columns: 38px minmax(0, 1fr);
+    gap: 12px;
+    padding: 12px 14px;
+  }
+
+  .tech-logo-wrap {
+    width: 38px;
+    height: 38px;
+    padding: 6px;
+    border-radius: 10px;
+  }
+
+  .tech-card-logo .tech-info h3 {
+    font-size: 0.82rem;
+  }
+
+  .tech-category {
+    font-size: 0.66rem;
+  }
+
+  .tech-usage {
+    margin-top: 5px;
+    padding: 3px 6px;
+    font-size: 0.54rem;
+  }
+} {
   .tech-card-logo {
     min-height: 120px;
     grid-template-columns: 52px minmax(0, 1fr);
