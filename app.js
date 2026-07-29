@@ -326,9 +326,49 @@
   }
 
   function techMarkup() {
-    return `<div class="tech-grid showcase-content showcase-panel-enter">${data.techStack.map((item, index) => `
-      <article class="tech-card reveal" data-hover-glow style="--card-index:${index}"><div class="tech-icon">${escapeHtml(item.icon)}</div><div class="tech-info"><h3>${escapeHtml(item.name)}</h3><span>${escapeHtml(item.category)}</span><div class="progress-track"><i style="width:${Number(item.level)}%"></i></div></div><strong>${Number(item.level)}%</strong></article>`).join('')}</div>`;
-  }
+  return `
+    <div class="tech-grid showcase-content showcase-panel-enter">
+      ${data.techStack.map((item, index) => `
+        <article
+          class="tech-card tech-card-logo reveal"
+          data-hover-glow
+          style="--card-index:${index}"
+        >
+          <div class="tech-logo-wrap">
+            ${
+              item.logo
+                ? `
+                  <img
+                    class="tech-logo"
+                    src="${attr(item.logo)}"
+                    alt="${attr(item.name)} logo"
+                    loading="lazy"
+                  >
+                `
+                : `
+                  <span class="tech-logo-fallback">
+                    ${escapeHtml(item.icon || '')}
+                  </span>
+                `
+            }
+          </div>
+
+          <div class="tech-info">
+            <h3>${escapeHtml(item.name)}</h3>
+
+            <span class="tech-category">
+              ${escapeHtml(item.category)}
+            </span>
+
+            <small class="tech-usage">
+              ${escapeHtml(item.usage || 'Working Knowledge')}
+            </small>
+          </div>
+        </article>
+      `).join('')}
+    </div>
+  `;
+}
 
   function showcaseContent() {
     if (showcaseTab === 'certificates') return certificatesMarkup();
