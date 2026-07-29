@@ -1,7 +1,7 @@
 (() => {
   'use strict';
 
-  const STORAGE_KEY = 'portfolio-dark-admin-static-v3-luqman-real';
+  const STORAGE_KEY = 'portfolio-dark-admin-static-v4-webp-tools';
   const AUTH_KEY = 'portfolio-dark-admin-static-auth-v3';
   const app = document.getElementById('app');
 
