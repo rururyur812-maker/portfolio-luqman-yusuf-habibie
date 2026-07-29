@@ -92,15 +92,79 @@
       { id: 'c2', title: 'Digital Business Art and Sport Competition 2025', issuer: 'Himpunan Mahasiswa Prodi Bisnis Digital · Staff Sie Perkapman', year: '2025', image: 'assets/certificate-dbasc.jpg', credentialUrl: '' }
     ],
     techStack: [
-      { id: 't1', name: 'Microsoft Excel', category: 'Data Analysis & Reporting', icon: 'XL', level: 90 },
-      { id: 't2', name: 'Google Sheets', category: 'Collaboration & Analysis', icon: 'GS', level: 88 },
-      { id: 't3', name: 'Figma', category: 'UI / Product Design', icon: 'Fg', level: 82 },
-      { id: 't4', name: 'Canva', category: 'Visual Communication', icon: 'Cv', level: 92 },
-      { id: 't5', name: 'CapCut', category: 'Content Editing', icon: 'Cc', level: 84 },
-      { id: 't6', name: 'Notion', category: 'Documentation & Planning', icon: 'No', level: 86 },
-      { id: 't7', name: 'Looker Studio', category: 'Dashboard & Visualization', icon: 'LS', level: 76 },
-      { id: 't8', name: 'AI Tools', category: 'Research & Productivity', icon: 'AI', level: 89 }
-    ],
+  {
+    id: 't1',
+    name: 'Microsoft Excel',
+    category: 'Data Analysis & Reporting',
+    icon: 'XL',
+    logo: 'assets/tools/microsoft-excel.webp',
+    usage: 'Frequently Used',
+    level: 90
+  },
+  {
+    id: 't2',
+    name: 'Google Sheets',
+    category: 'Data Processing & Collaboration',
+    icon: 'GS',
+    logo: 'assets/tools/google-sheets.webp',
+    usage: 'Frequently Used',
+    level: 88
+  },
+  {
+    id: 't3',
+    name: 'Figma',
+    category: 'UI Planning & Product Design',
+    icon: 'FG',
+    logo: 'assets/tools/figma.webp',
+    usage: 'Working Knowledge',
+    level: 82
+  },
+  {
+    id: 't4',
+    name: 'Canva',
+    category: 'Visual Communication',
+    icon: 'CV',
+    logo: 'assets/tools/canva.webp',
+    usage: 'Frequently Used',
+    level: 92
+  },
+  {
+    id: 't5',
+    name: 'CapCut',
+    category: 'Content & Video Editing',
+    icon: 'CC',
+    logo: 'assets/tools/capcut.webp',
+    usage: 'Frequently Used',
+    level: 84
+  },
+  {
+    id: 't6',
+    name: 'Notion',
+    category: 'Documentation & Project Planning',
+    icon: 'NT',
+    logo: 'assets/tools/notion.webp',
+    usage: 'Working Knowledge',
+    level: 86
+  },
+  {
+    id: 't7',
+    name: 'Looker Studio',
+    category: 'Dashboard & Data Visualization',
+    icon: 'LS',
+    logo: 'assets/tools/looker-studio.webp',
+    usage: 'Currently Learning',
+    level: 76
+  },
+  {
+    id: 't8',
+    name: 'AI Tools',
+    category: 'Research & Productivity',
+    icon: 'AI',
+    logo: 'assets/tools/ai-tools.webp',
+    usage: 'Frequently Used',
+    level: 89
+  }
+],
     messages: [
       { id: 'm1', name: 'Demo Visitor', email: 'visitor@example.com', subject: 'Internship opportunity', message: 'Kami tertarik mendiskusikan kesempatan magang dan project analisis bisnis.', createdAt: '2026-07-22T07:00:00.000Z', status: 'new' }
     ]
